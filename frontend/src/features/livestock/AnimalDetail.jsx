@@ -6,7 +6,7 @@ import ReactMarkdown from "react-markdown";
 export default function AnimalDetail({ mode = "edit" }) {
   const { id } = useParams();
   const navigate = useNavigate();
-  const isNew = id === "new";
+  const isNew = !id || id === "new";
 
   const [formData, setFormData] = useState({
     tag_number: "", type: "Cow", breed: "", age: "", gender: "Female", health_status: "Healthy", vaccination_status: "Up to Date", notes: "", photo_url: "",
