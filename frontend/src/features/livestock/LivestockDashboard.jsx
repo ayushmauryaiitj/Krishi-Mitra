@@ -8,7 +8,8 @@ export default function LivestockDashboard() {
 
   const fetchAnimals = async () => {
     try {
-      const res = await fetch("http://localhost:8000/api/v1/livestock/");
+      const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+      const res = await fetch(`${baseUrl}/livestock/`);
       const data = await res.json();
       setAnimals(data);
     } catch (err) {
@@ -25,7 +26,8 @@ export default function LivestockDashboard() {
   const deleteAnimal = async (id) => {
     if (!window.confirm("Are you sure you want to delete this animal?")) return;
     try {
-      await fetch("http://localhost:8000/api/v1/livestock/" + id, { method: "DELETE" });
+      const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+      await fetch(`${baseUrl}/livestock/` + id, { method: "DELETE" });
       fetchAnimals();
     } catch (err) {
       console.error(err);

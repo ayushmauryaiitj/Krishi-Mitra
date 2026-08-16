@@ -47,7 +47,8 @@ export default function Microfarm() {
     }
 
     try {
-      const res = await fetch("http://localhost:8000/api/v1/microfarm/recommend", {
+      const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+      const res = await fetch(`${baseUrl}/microfarm/recommend`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),

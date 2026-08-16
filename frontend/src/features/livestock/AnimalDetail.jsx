@@ -41,7 +41,8 @@ export default function AnimalDetail({ mode = "edit" }) {
   }, [id, isNew]);
 
   const fetchAnimalData = () => {
-    fetch("http://localhost:8000/api/v1/livestock/" + id)
+    const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+    fetch(`${baseUrl}/livestock/` + id)
       .then(res => res.json())
       .then(data => {
           if (data && data.id) {
@@ -121,7 +122,8 @@ export default function AnimalDetail({ mode = "edit" }) {
 
   const saveDailyCare = async () => {
       try {
-          await fetch(`http://localhost:8000/api/v1/livestock/${id}/daily_care`, {
+          const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+          await fetch(`${baseUrl}/livestock/${id}/daily_care`, {
               method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(dailyCare)
           });
           fetchAnimalData();
@@ -131,7 +133,8 @@ export default function AnimalDetail({ mode = "edit" }) {
   const saveFeeding = async (e) => {
       e.preventDefault();
       try {
-          await fetch(`http://localhost:8000/api/v1/livestock/${id}/feeding`, {
+          const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+          await fetch(`${baseUrl}/livestock/${id}/feeding`, {
               method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(feedForm)
           });
           setFeedForm({ feed_type: "", quantity: "", time: "", notes: "" });
@@ -142,7 +145,8 @@ export default function AnimalDetail({ mode = "edit" }) {
   const saveHealthRecord = async (e) => {
       e.preventDefault();
       try {
-          await fetch(`http://localhost:8000/api/v1/livestock/${id}/health`, {
+          const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+          await fetch(`${baseUrl}/livestock/${id}/health`, {
               method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(healthForm)
           });
           setHealthForm({ record_type: "Checkup", date: new Date().toISOString().split('T')[0], notes: "", next_due_date: "", symptoms: "" });
@@ -158,7 +162,8 @@ export default function AnimalDetail({ mode = "edit" }) {
       if(!aiQuestion.trim() && selectedSymptoms.length === 0) return;
       setAiLoading(true);
       try {
-          const res = await fetch("http://localhost:8000/api/v1/livestock/ask", {
+          const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+          const res = await fetch(`${baseUrl}/livestock/ask`, {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ 

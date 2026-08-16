@@ -2,18 +2,12 @@
   "services": {
     "frontend": {
       "root": "frontend"
-    },
-    "backend": {
-      "root": "backend",
-      "entrypoint": "app.main:app"
     }
   },
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": {
-        "service": "backend"
-      }
+      "destination": "https://krishi-mitra-backend.onrender.com/api/$1"
     },
     {
       "source": "/(.*)",
