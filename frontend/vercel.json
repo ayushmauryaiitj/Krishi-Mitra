@@ -2,14 +2,11 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "https://four04-2gg4.onrender.com/api/$1"
-    }
-  ],
-  "redirects": [
+      "destination": "https://krishi-mitra-backend-wpxw.onrender.com/api/$1"
+    },
     {
-      "source": "/api/(.*)",
-      "destination": "https://four04-2gg4.onrender.com/api/$1",
-      "permanent": true
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
