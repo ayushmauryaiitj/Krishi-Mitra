@@ -1,0 +1,21 @@
+import os
+from dotenv import load_dotenv
+from functools import lru_cache
+
+# Load environment variables from .env file
+load_dotenv()
+
+class Settings:
+    GEMINI_API_KEY_1: str = os.getenv("GEMINI_API_KEY_1", os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_NOT_SET"))
+    GEMINI_API_KEY_2: str = os.getenv("GEMINI_API_KEY_2", os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_NOT_SET"))
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_NOT_SET")
+    GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "YOUR_GROQ_API_KEY_NOT_SET")
+    PROJECT_NAME: str = "KrishiMitra Backend"
+    MAX_FILE_SIZE_MB: int = 5 # Max file size in Megabytes for uploads
+
+
+# Use lru_cache to load settings only once
+@lru_cache
+def get_settings() -> Settings:
+    return Settings()
+

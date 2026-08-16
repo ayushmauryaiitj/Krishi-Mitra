@@ -1,0 +1,716 @@
+[
+  {
+    "file": "src\\components\\Navbar.jsx",
+    "line": 168,
+    "text": "English",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\components\\Navbar.jsx",
+    "line": 193,
+    "text": "English",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 530,
+    "text": "KrishiMitra AI Chat",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 533,
+    "text": "Get personalized agricultural advice, weather insights, and farming recommendations from our expert AI.",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 617,
+    "text": "Share conversation",
+    "type": "title"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 619,
+    "text": "Share",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 692,
+    "text": "Read aloud",
+    "type": "title"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 694,
+    "text": "Read Aloud",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 702,
+    "text": "Retry",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 762,
+    "text": "Type your message...",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 775,
+    "text": "Speech captured! Review and click",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 775,
+    "text": "Send",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 795,
+    "text": "Listening...",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 805,
+    "text": "Recording...",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 828,
+    "text": "Quick Questions",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 834,
+    "text": "Best seasonal crops",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 841,
+    "text": "Soil improvement",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 848,
+    "text": "Crop prices",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 855,
+    "text": "Weather impact",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\chat\\ChatAssistant.jsx",
+    "line": 862,
+    "text": "Organic pest control",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\dashboard\\Dashboard.jsx",
+    "line": 143,
+    "text": "cm",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 236,
+    "text": "Cow",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 236,
+    "text": "Buffalo",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 236,
+    "text": "Goat",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 236,
+    "text": "Sheep",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 239,
+    "text": "Female",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 239,
+    "text": "Male",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 240,
+    "text": "Healthy",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 240,
+    "text": "Needs Attention",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 240,
+    "text": "Critical",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 276,
+    "text": "Adequate",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 276,
+    "text": "Needs Refill",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 277,
+    "text": "Clean",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 277,
+    "text": "Needs Cleaning",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 476,
+    "text": "Urgency:",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 503,
+    "text": "Checkup",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 503,
+    "text": "Vaccination",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 503,
+    "text": "Medicine",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\livestock\\AnimalDetail.jsx",
+    "line": 503,
+    "text": "Treatment",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 349,
+    "text": "Crop",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 352,
+    "text": "Price",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 355,
+    "text": "Change",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 358,
+    "text": "Location",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 361,
+    "text": "Date",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 441,
+    "text": "of",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 442,
+    "text": "items",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 453,
+    "text": "Previous",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 493,
+    "text": "Next",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\market\\MarketView.jsx",
+    "line": 533,
+    "text": "Trend Summary",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 159,
+    "text": "State",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 169,
+    "text": "Maharashtra",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 176,
+    "text": "District",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 186,
+    "text": "Kolhapur",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 187,
+    "text": "Pune",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 188,
+    "text": "Satara",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 189,
+    "text": "Sangli",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 196,
+    "text": "Soil Type",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 206,
+    "text": "Loam",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 207,
+    "text": "Sandy Loam",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 208,
+    "text": "Clay Loam",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 209,
+    "text": "Clay",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 210,
+    "text": "Sandy",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 236,
+    "text": "Water Source",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 246,
+    "text": "Well",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 247,
+    "text": "Canal",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 248,
+    "text": "Rainwater",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 249,
+    "text": "Municipal",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 274,
+    "text": "Preferred Crops",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 457,
+    "text": "months",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 462,
+    "text": "L/day",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\microfarm\\Microfarm.jsx",
+    "line": 467,
+    "text": "kWh/day",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\voice\\VoiceControl.jsx",
+    "line": 68,
+    "text": "English",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\voice\\VoiceControl.jsx",
+    "line": 69,
+    "text": "Hindi",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\voice\\VoiceControl.jsx",
+    "line": 70,
+    "text": "Marathi",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 786,
+    "text": "e.g., 2.5",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 798,
+    "text": "Farm Location (Optional)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 813,
+    "text": "Location Set",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 825,
+    "text": "Search address or place name...",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 833,
+    "text": "Selected:",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 845,
+    "text": "Annual Rainfall (mm)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 855,
+    "text": "e.g., 800",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 865,
+    "text": "Soil Health Parameters",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 872,
+    "text": "pH",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 880,
+    "text": "e.g., 6.5",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 890,
+    "text": "N (kg/ha)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 898,
+    "text": "e.g., 140",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 906,
+    "text": "P (kg/ha)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 914,
+    "text": "e.g., 50",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 922,
+    "text": "K (kg/ha)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 930,
+    "text": "e.g., 200",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 938,
+    "text": "Organic Carbon (%)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 946,
+    "text": "e.g., 0.5",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 960,
+    "text": "Farm\n                        Management",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 965,
+    "text": "Fertilizer (kg/ha)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 973,
+    "text": "e.g., 100",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 980,
+    "text": "Pesticide (kg/ha)",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 988,
+    "text": "e.g., 2",
+    "type": "placeholder"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1007,
+    "text": "Predicting Yield...",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1012,
+    "text": "Predict Yield",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1066,
+    "text": "Prediction Error",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1076,
+    "text": "Edit Inputs & Try Again",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1091,
+    "text": "Yield Prediction Awaits",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1094,
+    "text": "Fill the form to get AI-powered yield estimates and\n                        insights.",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1110,
+    "text": "Prediction Results",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1114,
+    "text": "Analysis for",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1115,
+    "text": "in",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1124,
+    "text": "Predicted Yield",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1129,
+    "text": "t/ha",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1133,
+    "text": "Est. Production",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1138,
+    "text": "tons",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1147,
+    "text": "Current Conditions",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1154,
+    "text": "Temp:",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1160,
+    "text": "Humidity:",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1166,
+    "text": "Condition:",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1174,
+    "text": "Est. Rainfall (Month):",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1179,
+    "text": "cm",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1190,
+    "text": "Recommendations",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1211,
+    "text": "Adjust Parameters & Predict Again",
+    "type": "JSXText"
+  },
+  {
+    "file": "src\\features\\yield\\YieldPredictor.jsx",
+    "line": 1214,
+    "text": "Note: Predictions are estimates based on provided\n                            data. Actual results may vary.",
+    "type": "JSXText"
+  }
+]

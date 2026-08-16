@@ -1,0 +1,67 @@
+import React from "react";
+
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  Navigate,
+} from "react-router-dom";
+import Home from "./components/Home";
+import { ThemeProvider } from "./theme/ThemeContext";
+import MarketView from "./features/market/MarketView";
+import DiseaseDetector from "./features/Disease/DiseaseDetector";
+import VoiceControl from "./features/voice/VoiceControl";
+import ChatAssistant from "./features/chat/ChatAssistant";
+import Navbar from "./components/Navbar";
+import Microfarm from "./features/microfarm/Microfarm";
+import Dashboard from "./features/dashboard/Dashboard";
+import GovernmentSchemes from "./features/schemes/GovernmentSchemes";
+import FarmProfile from "./features/profile/FarmProfile";
+import YieldPredictor from "./features/yield/YieldPredictor";
+import { FarmProfileProvider } from "./context/FarmProfileContext";
+
+
+import LivestockDashboard from "./features/livestock/LivestockDashboard";
+import AnimalDetail from "./features/livestock/AnimalDetail";
+
+function App() {
+  return (
+    
+      <ThemeProvider>
+        <FarmProfileProvider>
+          <Router>
+            <Navbar />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/dashboard" element={<Dashboard />} />
+              <Route path="/profile" element={<FarmProfile />} />
+              <Route path="/schemes" element={<GovernmentSchemes />} />
+              <Route path="/market" element={<MarketView />} />
+              <Route path="/disease" element={<DiseaseDetector />} />
+              <Route path="/voice" element={<VoiceControl />} />
+              <Route path="/yield" element={<YieldPredictor />} />
+              <Route path="/chat" element={<ChatAssistant />} />
+              <Route path="/microfarm" element={<Microfarm />} />
+              <Route path="/livestock" element={<LivestockDashboard />} />
+              <Route
+                path="/livestock/:id"
+                element={<AnimalDetail mode="view" />}
+              />
+              <Route
+                path="/livestock/:id/edit"
+                element={<AnimalDetail mode="edit" />}
+              />
+              <Route
+                path="/livestock/new"
+                element={<AnimalDetail mode="edit" />}
+              />
+            </Routes>
+          </Router>
+        </FarmProfileProvider>
+      </ThemeProvider>
+    
+  );
+}
+
+export default App;
