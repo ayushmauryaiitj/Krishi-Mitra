@@ -29,6 +29,7 @@ app = FastAPI(
 # Adjust origins as needed. "*" is insecure for production.
 # For development, allow your Vite dev server origin (usually http://localhost:5173)
 origins = [
+    "*", # Allow all origins (Vercel edge proxy handles public traffic)
     "http://localhost:5173", # Default Vite React dev server
     "http://localhost:3000", # Common React dev server port
     "http://127.0.0.1:5173",
@@ -38,6 +39,7 @@ origins = [
     # Production frontend URL
     "https://404-snowy.vercel.app",
     # Add other origins if needed (e.g., deployed frontend URL)
+    "https://krishi-mitra-frontend-q2rvp2r4w-2069ayushmaurya-4262s-projects.vercel.app"
 ]
 
 app.add_middleware(
