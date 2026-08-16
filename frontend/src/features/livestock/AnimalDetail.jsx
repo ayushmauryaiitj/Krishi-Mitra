@@ -92,7 +92,8 @@ export default function AnimalDetail({ mode = "edit" }) {
     setSaveError(null);
     setSuccessMessage("");
     
-    const url = isNew ? "http://localhost:8000/api/v1/livestock/" : "http://localhost:8000/api/v1/livestock/" + id;
+    const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api/v1";
+    const url = isNew ? `${baseUrl}/livestock/` : `${baseUrl}/livestock/${id}`;
     const method = isNew ? "POST" : "PUT";
     
     const payload = { ...formData };
